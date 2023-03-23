@@ -31,7 +31,7 @@ Then refresh the page in your browser
 
 sometimes,you need:
 
-npm audit fix --force
+`npm audit fix --force`
 
 to fix up some bugs
 
