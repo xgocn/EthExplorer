@@ -74,10 +74,11 @@
     <footer>
         <hr>
         <p>
-            © Etherparty.io 2017 | <a href="http://github.com/etherparty/explorer">Fork me on GitHub</a>
+            © Universal | <button ng-click="addNewChain()">add URC to your Metamask</button>
         </p>
     </footer>
 </div>
+	
 <script>
 $("#modaltext").text( 'geth --rpc --rpccorsdomain "'+ window.location.protocol + '//' + window.location.host + '"' );
 </script>
